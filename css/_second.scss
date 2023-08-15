@@ -1,0 +1,47 @@
+.second{
+    position: relative;
+    bottom: 100px;
+    color: $white; 
+   
+    h1{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    a{
+        padding: 15px 30px;
+        border: 1px solid $white;
+        margin-top: 30px;
+        position: relative;
+        top: 30px;
+        color: $white;
+        text-decoration: none;
+        text-align: right;
+    }
+
+    a:hover{
+        background-color: $white;
+        color: $black;
+    }
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.red{
+    background-color: #e31c25;
+    padding: 100px;
+    text-align: justify;
+    line-height: 25px;
+
+    h3{
+        font-size: 30px;
+    }
+
+    
+}
+
+.black{
+    background-color: black;
+    padding: 100px;
+    line-height: 25px;
+}

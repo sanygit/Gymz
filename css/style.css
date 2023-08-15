@@ -1,0 +1,892 @@
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: white;
+  border: 1px solid red;
+  color: black;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+header .navbar {
+  margin-bottom: 0px;
+}
+header .navbar-default {
+  background-color: rgb(77, 77, 78);
+}
+header .color {
+  background-color: rgb(77, 77, 78);
+}
+header .navbar-default .navbar-nav li a {
+  color: white;
+  font-size: 15px;
+}
+header .navbar-default .navbar-brand {
+  font-size: 35px;
+  color: white;
+}
+header .banner {
+  width: 100%;
+}
+header .banner img {
+  width: 100%;
+}
+header .banner .text {
+  margin-bottom: 370px;
+}
+header .banner .text h1 {
+  font-size: 80px;
+  font-weight: 900;
+}
+header .banner .text p {
+  color: red;
+  font-size: 20px;
+  font-weight: 900;
+}
+header .banner .text a {
+  padding: 15px 40px;
+  border: 2px solid white;
+  color: white;
+  background-color: none;
+  position: relative;
+  top: 35px;
+  font-size: 25px;
+  text-decoration: none;
+}
+header .banner .text a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 5px 5px 5px grey;
+}
+header .container-fluid > .navbar-header {
+  margin-left: 0;
+  margin-right: 0;
+}
+header .container-fluid > .navbar-collapse {
+  margin-left: 0;
+  margin-right: 0;
+}
+header .navbar > .container-fluid .navbar-brand {
+  margin-left: 0;
+  font-weight: 900;
+}
+
+.second {
+  position: relative;
+  bottom: 100px;
+  color: white;
+}
+.second h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.second a {
+  padding: 15px 30px;
+  border: 1px solid white;
+  margin-top: 30px;
+  position: relative;
+  top: 30px;
+  color: white;
+  text-decoration: none;
+  text-align: right;
+}
+.second a:hover {
+  background-color: white;
+  color: black;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.red {
+  background-color: #e31c25;
+  padding: 100px;
+  text-align: justify;
+  line-height: 25px;
+}
+.red h3 {
+  font-size: 30px;
+}
+
+.black {
+  background-color: black;
+  padding: 100px;
+  line-height: 25px;
+}
+
+.third-section {
+  padding-bottom: 40px;
+}
+.third-section img {
+  width: 100%;
+}
+.third-section h1 {
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 0px;
+}
+.third-section .padding-left {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.third-section .margin-top h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.third-section .margin-top #font-weight-award {
+  margin-top: 35px;
+}
+.third-section .margin-top a {
+  padding: 15px 30px;
+  border: 1px solid red;
+  background-color: none;
+  color: red;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+}
+.third-section .margin-top a:hover {
+  background-color: red;
+  color: white;
+}
+.third-section p {
+  font-size: 17px;
+  color: grey;
+}
+
+.forth-section {
+  color: white;
+  padding: 70px 0px;
+}
+.forth-section h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.forth-section .left-black {
+  background-color: rgb(34, 34, 35);
+  padding: 60px;
+}
+.forth-section .left-black img {
+  width: 10%;
+}
+.forth-section .left-black img:hover {
+  transform: scale(1.03);
+  transition: 1s;
+}
+.forth-section .center-red {
+  background-color: red;
+  padding: 59px;
+}
+.forth-section .center-red img {
+  width: 10%;
+}
+.forth-section .center-red img:hover {
+  transform: scale(1.03);
+  transition: 1s;
+}
+
+.five-section {
+  margin: 30px 0px;
+  text-align: center;
+}
+.five-section h4 {
+  color: red;
+  font-weight: bold;
+}
+.five-section h2 {
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.two-people {
+  margin: 20px 0px;
+}
+.two-people img {
+  width: 100%;
+}
+.two-people img:hover {
+  transform: scale(1.03);
+  transition: 1s;
+}
+.two-people .fa {
+  font-size: 30px;
+  color: red;
+  position: relative;
+  bottom: 160px;
+  left: 180px;
+}
+.two-people #calendar {
+  font-size: 30px;
+  color: red;
+  position: relative;
+  bottom: 140px;
+  left: 180px;
+}
+.two-people h4 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 0px;
+}
+.two-people p {
+  color: grey;
+}
+
+.bigwrapper {
+  width: 100%;
+  background-color: rgb(70, 70, 71);
+  text-align: center;
+}
+.bigwrapper .subscribe-padding {
+  padding: 70px 0px;
+}
+.bigwrapper .subscribe-padding h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+.bigwrapper .subscribe-padding p {
+  color: white;
+}
+
+.bigwrapper2 {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 70px 0px;
+}
+.bigwrapper2 .left {
+  background: rgba(0, 0, 0, 0.7) url("../img/carousel-1.jpg");
+  width: 55%;
+  height: 400px;
+  background-position: center top;
+  background-size: cover;
+  padding: 8% 10%;
+  background-blend-mode: darken;
+}
+.bigwrapper2 .left h4 {
+  color: red;
+  font-weight: bold;
+}
+.bigwrapper2 .left h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+}
+.bigwrapper2 .left p {
+  color: white;
+}
+.bigwrapper2 .right {
+  width: 45%;
+  height: 400px;
+  background-color: rgb(38, 37, 37);
+  padding: 3% 5%;
+}
+.bigwrapper2 .right h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.two-women {
+  margin-bottom: 50px;
+}
+.two-women img {
+  width: 100%;
+}
+.two-women img:hover {
+  transform: scale(1.03);
+  transition: 1s;
+}
+.two-women h4 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 0px;
+}
+.two-women p {
+  color: grey;
+}
+
+.trainer {
+  text-align: center;
+}
+.trainer h4 {
+  color: red;
+  font-weight: 900;
+}
+.trainer h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.team {
+  padding: 70px 0px;
+}
+.team img {
+  width: 100%;
+}
+.team img .span:hover {
+  display: block;
+}
+.team .team1 {
+  background-color: black;
+}
+.team .black-background {
+  background-color: black;
+  padding: 10px 0px;
+}
+.team .black-background h4 {
+  margin-top: 0px;
+  color: red;
+  text-align: center;
+  font-weight: 900;
+}
+.team .black-background p {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+}
+.team .text1:hover {
+  transform: scale(1.03);
+  transition: 1s;
+}
+
+.blog {
+  text-align: center;
+  padding-bottom: 70px;
+}
+.blog h4 {
+  font-weight: 900;
+  color: red;
+}
+.blog h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+.blog p {
+  font-size: 17px;
+  color: grey;
+}
+
+.blog-1 {
+  padding-bottom: 70px;
+}
+.blog-1 img {
+  width: 100%;
+}
+.blog-1 .red-box {
+  background-color: red;
+  padding: 10px;
+  border-radius: 100%;
+  width: 68px;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  margin: 15px 0px;
+}
+.blog-1 a {
+  padding: 12px 20px;
+  text-decoration: none;
+  color: red;
+  border: 1px solid red;
+  position: relative;
+  top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.blog-1 a:hover {
+  background-color: red;
+  color: white;
+}
+.blog-1 h3 {
+  font-weight: 700;
+}
+.blog-1 p {
+  font-size: 15px;
+  color: grey;
+}
+
+.bigwrapper3 {
+  background: rgba(0, 0, 0, 0.7) url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  margin-top: 70px;
+}
+.bigwrapper3 .footer {
+  padding: 6% 0px;
+  color: white;
+}
+.bigwrapper3 .footer h3 {
+  color: red;
+}
+.bigwrapper3 .footer a {
+  color: white;
+  font-size: 16px;
+}
+.bigwrapper3 .footer p {
+  font-weight: 500;
+}
+.bigwrapper3 .footer .mr-1 {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 3px;
+}
+.bigwrapper3 .footer .mr-1:hover {
+  background-color: white;
+  color: black;
+}
+.bigwrapper3 .copyright hr {
+  border-top: 1px solid #565454;
+}
+.bigwrapper3 .copyright p {
+  text-align: center;
+  padding: 30px 0px;
+  color: white;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 992px) {
+  header .banner .text {
+    margin-bottom: 185px;
+  }
+  header .banner .text h1 {
+    font-size: 50px;
+  }
+  .second {
+    padding: 70px 0px;
+    color: white;
+    position: relative;
+    top: 0;
+  }
+  .margin-bottom {
+    padding: 50px 0px;
+  }
+  .margin-top2 {
+    margin-top: 100px;
+  }
+  .forth-section p {
+    font-size: 20px;
+  }
+  padding {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .bigwrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0px;
+  }
+  .top {
+    margin-top: 50px;
+  }
+  .red {
+    padding: 75px;
+  }
+  .black {
+    padding: 75px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header .banner .text {
+    margin-bottom: 140px;
+  }
+  header .banner .text h1 {
+    font-size: 35px;
+  }
+  header .banner .text a {
+    padding: 15px 30px;
+    font-size: 15px;
+  }
+  .top {
+    margin-top: 50px;
+  }
+  padding {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .five-section h2 {
+    font-size: 40px;
+  }
+  .third-section h2 {
+    font-size: 40px;
+  }
+  .bigwrapper .subscribe-padding h1 {
+    font-size: 40px;
+  }
+  .margin-left {
+    margin-left: 277px;
+  }
+  .bigwrapper2 .left {
+    padding: 10% 8%;
+  }
+  .bigwrapper2 .right h1 {
+    font-size: 28px;
+  }
+  .bigwrapper2 .left p {
+    text-align: justify;
+  }
+  .trainer h1 {
+    font-size: 40px;
+  }
+  .top2 {
+    margin-top: 50px;
+  }
+  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .second h1 {
+    padding: 0px 15px;
+  }
+  .second p {
+    padding: 0px 15px;
+  }
+  .second a {
+    margin: 0px 15px;
+  }
+  .blog h1 {
+    font-size: 40px;
+  }
+  header .navbar-default .navbar-brand {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 448px) {
+  header .banner .text {
+    margin-bottom: 50px;
+  }
+  header .banner .text h1 {
+    font-size: 30px;
+  }
+  header .banner .text a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  header .navbar-default .navbar-brand {
+    font-size: 25px;
+  }
+  .top {
+    margin-top: 50px;
+  }
+  padding {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .five-section h2 {
+    font-size: 28px;
+  }
+  .third-section h2 {
+    font-size: 40px;
+  }
+  .bigwrapper .subscribe-padding h1 {
+    font-size: 31px;
+  }
+  .margin-left {
+    margin-left: 120px;
+  }
+  .bigwrapper2 .left {
+    padding: 24% 8%;
+    width: 100%;
+  }
+  .bigwrapper2 .right h1 {
+    font-size: 28px;
+  }
+  .bigwrapper2 .left p {
+    text-align: justify;
+  }
+  .bigwrapper2 .right {
+    width: 100%;
+    padding: 45px 15px;
+  }
+  .trainer h1 {
+    font-size: 30px;
+  }
+  .top2 {
+    margin-top: 50px;
+  }
+  .top3 {
+    margin-top: 50px;
+  }
+  .second h1 {
+    padding: 0px 15px;
+  }
+  .second p {
+    padding: 0px 15px;
+  }
+  .second a {
+    margin: 0px 15px;
+  }
+  .blog h1 {
+    font-size: 30px;
+  }
+  .third-section h1 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  header .banner .text {
+    margin-bottom: 40px;
+  }
+  header .banner .text h1 {
+    font-size: 25px;
+  }
+  header .banner .text a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  header .navbar-default .navbar-brand {
+    font-size: 25px;
+  }
+  .top {
+    margin-top: 50px;
+  }
+  header .banner .text p {
+    font-size: 15px;
+  }
+  padding {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .five-section h2 {
+    font-size: 21px;
+  }
+  .third-section h2 {
+    font-size: 40px;
+  }
+  .bigwrapper .subscribe-padding h1 {
+    font-size: 25px;
+  }
+  .margin-left {
+    margin-left: 76px;
+  }
+  .bigwrapper2 .left {
+    padding: 24% 8%;
+    width: 100%;
+  }
+  .bigwrapper2 .right h1 {
+    font-size: 28px;
+  }
+  .bigwrapper2 .left p {
+    text-align: justify;
+  }
+  .bigwrapper2 .right {
+    width: 100%;
+    padding: 45px 15px;
+  }
+  .trainer h1 {
+    font-size: 23px;
+  }
+  .top2 {
+    margin-top: 50px;
+  }
+  .top3 {
+    margin-top: 50px;
+  }
+  .second {
+    padding: 0px;
+  }
+  .second h1 {
+    padding: 0px 15px;
+    font-size: 30px;
+  }
+  .second p {
+    padding: 0px 15px;
+  }
+  .second a {
+    margin: 0px 15px;
+    position: relative;
+    top: 6;
+  }
+  .blog h1 {
+    font-size: 24px;
+  }
+  .blog-1 p {
+    text-align: justify;
+  }
+  .third-section h1 {
+    font-size: 28px;
+  }
+  .red {
+    margin: 75px 0px;
+  }
+  .black {
+    margin: 75px 0px;
+  }
+  .forth-section {
+    padding: 0px;
+  }
+  .forth-section h2 {
+    font-size: 30px;
+  }
+  .forth-section p {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .two-people h4 {
+    font-size: 20px;
+  }
+  .two-people p {
+    text-align: justify;
+  }
+  .two-women h4 {
+    font-size: 20px;
+  }
+  .two-women p {
+    text-align: justify;
+  }
+  .bigwrapper2 .left h1 {
+    font-size: 37px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  header .banner .text {
+    margin-bottom: 40px;
+  }
+  header .banner .text h1 {
+    font-size: 25px;
+  }
+  header .banner .text a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  header .navbar-default .navbar-brand {
+    font-size: 25px;
+  }
+  .top {
+    margin-top: 50px;
+  }
+  header .banner .text p {
+    font-size: 15px;
+  }
+  padding {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .five-section h2 {
+    font-size: 21px;
+  }
+  .third-section h2 {
+    font-size: 40px;
+  }
+  .bigwrapper .subscribe-padding h1 {
+    font-size: 25px;
+  }
+  .margin-left {
+    margin-left: 76px;
+  }
+  .bigwrapper2 .left {
+    padding: 24% 8%;
+    width: 100%;
+  }
+  .bigwrapper2 .right h1 {
+    font-size: 28px;
+  }
+  .bigwrapper2 .left p {
+    text-align: justify;
+  }
+  .bigwrapper2 .right {
+    width: 100%;
+    padding: 45px 15px;
+  }
+  .trainer h1 {
+    font-size: 23px;
+  }
+  .top2 {
+    margin-top: 50px;
+  }
+  .top3 {
+    margin-top: 50px;
+  }
+  .second {
+    padding: 0px;
+  }
+  .second h1 {
+    padding: 0px 15px;
+    font-size: 30px;
+  }
+  .second p {
+    padding: 0px 15px;
+  }
+  .second a {
+    margin: 0px 15px;
+    position: relative;
+    top: 6;
+  }
+  .blog h1 {
+    font-size: 24px;
+  }
+  .blog-1 p {
+    text-align: justify;
+  }
+  .third-section h1 {
+    font-size: 28px;
+  }
+  .red {
+    margin: 75px 0px;
+  }
+  .black {
+    margin: 75px 0px;
+  }
+  .forth-section {
+    padding: 0px;
+  }
+  .forth-section h2 {
+    font-size: 30px;
+  }
+  .forth-section p {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .two-people h4 {
+    font-size: 20px;
+  }
+  .two-people p {
+    text-align: justify;
+  }
+  .two-women h4 {
+    font-size: 20px;
+  }
+  .two-women p {
+    text-align: justify;
+  }
+  .bigwrapper2 .left h1 {
+    font-size: 37px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,4 @@
+[0411/114908.956:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0411/114913.963:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0411/114914.594:ERROR:command_buffer_proxy_impl.cc(124)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
+[0414/101040.201:ERROR:command_buffer_proxy_impl.cc(124)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.

@@ -1,0 +1,63 @@
+.trainer{
+    text-align: center;
+    
+    h4{
+        color: $red;
+        font-weight: 900;
+    }
+
+    h1{
+        font-size: 50px;
+        font-weight:900 ;
+    }
+}
+
+.team{
+
+
+
+    img{
+        width: 100%;
+    }
+
+    img .span:hover{
+        display: block;
+        
+    }
+
+    padding: 70px 0px;
+
+
+    .team1{
+        background-color:$black;
+    }
+
+    .black-background{
+        background-color: black;
+        padding: 10px 0px;
+
+        h4{
+           margin-top: 0px;
+           color: $red;
+           text-align: center;
+           font-weight: 900;
+          
+        }
+
+        p{
+            color: $white;
+            text-align: center;
+            font-size: 17px;
+            
+        }
+    }
+
+   
+
+    .text1:hover{
+        transform: scale(1.03);
+        transition: 1s;
+    }
+
+
+}

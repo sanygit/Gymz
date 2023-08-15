@@ -1,0 +1,93 @@
+.bigwrapper{
+    width: 100%;
+    background-color: rgb(70, 70, 71);
+    text-align: center;
+   
+    .subscribe-padding{
+        padding: 70px 0px;
+
+        h1{
+            font-size: 50px;
+            font-weight: 900;
+            color: $white;
+        }
+
+        p{
+            color: $white;
+        }
+    }
+}
+
+// container fluid starts 
+.bigwrapper2{
+
+    display: flex;
+    flex-wrap: nowrap;
+
+    padding: 70px 0px;
+    .left{
+        background: rgba(0,0,0,0.7)  url("../img/carousel-1.jpg");
+        width:55%;
+        height: 400px;
+        background-position: center top;
+        background-size: cover;
+        padding: 8% 10%;
+        background-blend-mode: darken;
+
+        h4{
+            color: $red;
+            font-weight: bold;
+        }
+
+        h1{
+            color: $white;
+            font-size: 40px;
+            font-weight: 900;
+        }
+
+        p{
+            color: $white;
+        }
+
+    }
+
+    .right{
+        width: 45%;
+        height: 400px;
+        background-color: rgb(38, 37, 37);
+        padding: 3% 5%;
+
+        h1{
+            color: $white;
+            font-size: 40px;
+            font-weight: 900;
+        }
+
+    }
+}
+
+
+.two-women{
+
+    margin-bottom: 50px;
+
+    img{
+        width: 100%;
+    }
+
+    img:hover{
+        transform: scale(1.03);
+        transition: 1s;
+    }
+
+    h4{
+        font-size: 25px;
+        font-weight: 900;
+        margin-top:0px ;
+    }
+    
+    p{
+        color: grey;
+    }
+
+}

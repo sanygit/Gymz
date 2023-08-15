@@ -1,0 +1,110 @@
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+header{
+
+    .navbar{
+        margin-bottom: 0px;
+    }
+
+ 
+
+    .navbar-default{
+        background-color: rgb(77, 77, 78);
+      
+       
+    }
+
+    .color{
+        background-color: rgb(77, 77, 78);
+    
+    }
+
+    .navbar-default .navbar-nav li a{
+        color: white;
+        font-size: 15px;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 35px;
+        color: white;
+    }
+
+
+
+    .banner{
+
+        width: 100%;
+       
+
+
+        img{
+            width: 100%;
+
+          
+           
+        }
+
+
+        .text{
+            margin-bottom: 370px;
+            
+
+            h1{
+                font-size: 80px;
+                font-weight: 900;
+                
+            }
+
+            p{
+                color: $red;
+                font-size: 20px;
+                font-weight: 900;
+            }
+
+            a{
+                padding: 15px 40px;
+                border: 2px solid $white;
+                color: $white;
+                background-color: none;
+                position: relative;
+                top: 35px;
+                font-size: 25px;
+                text-decoration: none;
+
+            }
+
+            a:hover{
+                background-color: $white;
+                color: $black;
+                box-shadow: 5px 5px 5px grey;
+            }
+
+  
+        }
+
+
+    }
+
+
+    .container-fluid>.navbar-header{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .container-fluid>.navbar-collapse{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .navbar>.container-fluid .navbar-brand{
+        margin-left: 0;
+        font-weight: 900;
+    }
+
+
+
+}

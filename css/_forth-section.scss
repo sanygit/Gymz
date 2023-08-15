@@ -1,0 +1,39 @@
+.forth-section{
+
+    color: $white;
+    padding: 70px 0px;
+
+    h2{
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .left-black{
+        background-color: rgb(34, 34, 35);
+        padding: 60px;
+
+        img{
+            width: 10%;
+        }
+
+        img:hover{
+            transform: scale(1.03);
+            transition: 1s;
+        }
+
+    }
+
+    .center-red{
+        background-color: $red;
+        padding: 59px;
+
+        img{
+            width: 10%;
+        }
+
+        img:hover{
+            transform: scale(1.03);
+            transition: 1s;
+        }
+    }
+}
